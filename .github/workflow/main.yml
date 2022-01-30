@@ -30,3 +30,4 @@ jobs:
           is_public: true
           kaggle_username: ${{ secrets.KAGGLE_USERNAME }}
           kaggle_key: ${{ secrets.KAGGLE_KEY }}
+  
