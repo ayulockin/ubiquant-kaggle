@@ -24,7 +24,7 @@ jobs:
       - name: Download and Upload
         uses: ayulockin/wandb2kaggle@v1
         with:
-          artifact_name: 'ayut/ubiquant_kaggle/Baseline'
+          artifact_name: 'ayut/ubiquant_kaggle/Baseline_DNN'
           id: 'ayuraj/ubiquant-dnn'
           title: 'Ubiquant DNN Models'
           is_public: true
