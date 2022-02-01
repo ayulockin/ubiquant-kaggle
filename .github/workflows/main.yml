@@ -24,9 +24,9 @@ jobs:
       - name: Download and Upload
         uses: ayulockin/wandb2kaggle@v1
         with:
-          artifact_name: 'ayut/ubiquant_kaggle/Baseline_DNN'
-          id: 'ayuraj/ubiquant-dnn'
-          title: 'Ubiquant DNN Models'
+          artifact_name: 'ayut/ubiquant_kaggle/Baseline_LGBM'
+          id: 'ayuraj/ubiquant-lgbm'
+          title: 'Ubiquant LightGBM Models'
           is_public: true
           kaggle_username: ${{ secrets.KAGGLE_USERNAME }}
           kaggle_key: ${{ secrets.KAGGLE_KEY }}
